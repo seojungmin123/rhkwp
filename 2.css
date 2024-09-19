@@ -1,0 +1,33 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav {
+    background-color: #d3d3d3;
+    width: 800px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+ul {
+    width: 750px;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+    display: flex;
+}
+
+ul > li {
+    margin-top: 33px;
+    height: 33px;
+    width: 75px;
+    background-color: #61ca61;
+    border-radius: 10px;
+    line-height: 33px;
+}
+
+ul > li:hover {
+    background-color: #5d913e;
+}
