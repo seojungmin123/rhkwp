@@ -5,12 +5,12 @@
 
 #wrap {
     width: 1000px;
-    height: 680px;
+    height: 700px;
 }
 
 #top {
     width: 1000px;
-    height: 80px;
+    height: 100px;
     background-color: #ff5e00;
 }
 
@@ -26,26 +26,25 @@
 }
 
 #right {
-    margin-left: 20px;
+   height: 500px;
 }
 
 .right1 {
-    width: 380px;
-    height: 150px;
+    width: 400px;
+    height: 175px;
     background-color: #f0d;
-    margin-bottom: 15px;
+    
 }
 
 .right2 {
-    width: 380px;
+    width: 400px;
     height: 150px;
     background-color: #ffe340;
-    margin-bottom: 15px;
 }
 
 .right3 {
-    width: 380px;
-    height: 170px;
+    width: 400px;
+    height: 175px;
     background-color: #99e000;
 }
 
