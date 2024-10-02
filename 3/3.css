@@ -46,15 +46,15 @@ span:hover{
 
 button{
     border-style: none;
+    font-size: large;
 }
 
 .button{
-    margin-left: 50px;
     height: 500px;
     width: 420px;
     display: flex;
     align-items: center;
-    font-size: larger;
+    
 }
 
 .start_button{
