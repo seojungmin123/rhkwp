@@ -1,0 +1,24 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrap {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000033;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.gradient_btn {
+    background: linear-gradient(#e66465, #9198e5);
+}
