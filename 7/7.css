@@ -1,7 +1,6 @@
 *{
     margin: 0 auto;
     padding: 0;
-    
 }
 
 .wrap {
@@ -12,24 +11,32 @@
     width: 50%;
     height: 720px;
     background-color: #F0F1F2;
+    
 }
 
 .facebook{
     margin-top: 200px;
     margin-right: 0;
-    width: 450px;
+    width: 250px;
     height: 60px;
+    margin-right: 200px;
+    padding-bottom: 10px;
 }
-/* .facebook img{
-    width: 100%; 이미지를 박스 크기에 맞추기
-} */
+.facebook img{
+    width: 100%;      /* 이미지를 박스 크기에 맞추기 */
+    height: 100%;
+}
+
+.box1_text1 {
+    line-height: 30px;
+}
 .box3 p {
     color: #00000093;
     font-size: medium;
     font-weight: normal;
 }
 
-.text p{
+.box1_text p{
     width: 450px;
     margin-right: 0px;
     font-size: 25px;
@@ -131,7 +138,7 @@ button {
     border-style: none;
 }
 
-.create {
+.page_create {
     width: 400px;
     font-size:medium;
     margin-left: 100px;
@@ -139,26 +146,26 @@ button {
     text-align: center;
     position: relative;
 }
-.create .page{
+.page_create .page{
     font-weight: bold;
 }
-.create .page:hover {
+.page_create .page:hover {
     text-decoration: underline;
 }
-.create .brand{
+.page_create .brand{
     cursor: pointer; /* cursor: ~; 커서모양 바꾸기 */
     text-decoration: none; /* 밑줄없애기 */
 }
-.create .brand:visited{
+.page_create .brand:visited{
     color: tomato;
 }
-.create .brand:hover{
+.page_create .brand:hover{
     color: tomato;
 }
-.create .brand:hover+.img {
+.page_create .brand:hover+.img {
     display: block;
 }
-.create .img{
+.page_create .img{
     width: 100px;
     position: absolute;
     left: 45px;
@@ -166,31 +173,65 @@ button {
     top: 40px;
 }
 .box3  {
-    width: 900px;
+    width: 1000px;
+    font-size: 14px;
 }
-.t1_box {
+.language_box {
     height: 50px;
 }
-.t1 {
+.languages ul{
+    list-style: none;
     display: flex;
-}
-.t1  p{
-    margin: 0;
-    padding: 8px;
+    color: #00000093;
     padding-top: 20px;
 }
-
-.t2_box {
-    border-top: #00000038 solid 1px;
-    height: 100px;
+.languages {
 }
-.t2 {
-    display: flex;
-}
-.t2  p{
+.languages li{
     margin: 0;
-    padding: 8px;
+    padding-right: 10px;
 }
-.plus {
-    color: #00000038;
+.languages li:hover {
+    text-decoration: underline;
+}
+
+.more {
+    width: 35px;
+    height: 23px;
+    color: #0000007e;
+    border: #00000034 1px solid;
+    line-height: 23px;
+}
+.more:hover{
+    background-color: #0000002a;
+}
+.more:active{
+    background-color: #00000056;
+}
+
+.what ul{
+    list-style: none;
+    display: flex;
+    color: #00000093;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.what li{
+    margin: 0;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+.what li:hover {
+    text-decoration: underline;
+}
+.what_box {
+    border-top: #00000038 solid 1px;
+    width: 1000px;
+    height: 500px;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #000000ab;
 }
