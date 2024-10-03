@@ -14,7 +14,7 @@
     
 }
 
-.facebook{
+.box1 .facebook{
     margin-top: 200px;
     margin-right: 0;
     width: 250px;
@@ -22,18 +22,13 @@
     margin-right: 200px;
     padding-bottom: 10px;
 }
-.facebook img{
+.box1 .facebook img{
     width: 100%;      /* 이미지를 박스 크기에 맞추기 */
     height: 100%;
 }
 
 .box1_text1 {
     line-height: 30px;
-}
-.box3 p {
-    color: #00000093;
-    font-size: medium;
-    font-weight: normal;
 }
 
 .box1_text p{
@@ -48,7 +43,7 @@
     width: 50%;
     height: 720px;
 }
-.login_box {
+.box2 .login_box {
     width: 400px;
     height: 350px;
     background-color: #ffffff;
@@ -59,7 +54,7 @@
     text-align: center;
 }
 
-.email {
+.box2 .login_box .email {
     width: 85%;
     height: 50px;
     margin-top: 20px;
@@ -67,7 +62,7 @@
     padding-left: 15px;
 }
 
-.password {
+.box2 .login_box .password {
     width: 85%;
     height: 50px;
     margin-top: 10px;
@@ -75,63 +70,63 @@
     padding-left: 15px;
 }
 
-.login{
+.box2 .login_box .login{
     width: 90%;
     height: 50px;
     margin-top: 15px;
     border-radius: 5px;
     background-color: #076DF2;
 }
-.login:hover{
+.box2 .login_box .login:hover{
     background-color: #3081ec;
 }
-.login:active{
+.box2 .login_box .login:active{
     background-color: #1d4c8a;
 }
 
-.forgot {
+.box2 .login_box .forgot {
     font-size: medium;
     margin-top: 15px;
     color: #076DF2;
 }
-.forgot:hover {
+.box2 .login_box .forgot:hover {
     text-decoration: underline;
 }
 
-.newacc_box {
+.box2 .login_box .newacc_box {
     width: 90%;
     height: 100px;
     margin-top: 20px;
     border-top: 1px #00000038 solid;
 }
-.newacc {
+.newacc_box .newacc {
     width: 45%;
     height: 45px;
     margin-top: 23px;
     border-radius: 5px;
     background-color: #57c011;
 }
-.newacc:hover{
+.newacc_box .newacc:hover{
     background-color: #44940f;
 }
-.newacc:active{
+.newacc_box .newacc:active{
     background-color: #397a0d;
 }
 
-input {
+.login_box input {
     font-size: 17px;
     border: solid 1px #00000038;
 }
-input:focus{
+.login_box input:focus{
     color: #000;
     outline: solid 1px #076DF2;
     box-shadow: 0px 0px 4px 0px #076DF2;
 }
-input:focus::placeholder {
+.login_box input:focus::placeholder {
     color: #00000023;
 }
 
-button {
+.login_box button {
     color: #fff;
     font-size: 18px;
     font-weight: 800;
@@ -173,7 +168,7 @@ button {
     top: 40px;
 }
 .box3  {
-    width: 1000px;
+    width: 900px;
     font-size: 14px;
 }
 .language_box {
@@ -198,9 +193,10 @@ button {
 .more {
     width: 35px;
     height: 23px;
-    color: #0000007e;
+    color: #000000b7;
     border: #00000034 1px solid;
     line-height: 23px;
+    font-size: 20px;
 }
 .more:hover{
     background-color: #0000002a;
@@ -227,7 +223,7 @@ button {
 }
 .what_box {
     border-top: #00000038 solid 1px;
-    width: 1000px;
+    width: 950px;
     height: 500px;
 }
 
