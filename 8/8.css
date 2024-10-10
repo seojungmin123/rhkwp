@@ -2,23 +2,70 @@
     margin: 0 auto;
     padding: 0;
 }
-
+body {
+    padding: 20px;
+}
 .wrap {
-    width: 1000px;
-    height: 200px;
+    width: 750px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00000033;
+    background-color: #C1EFF4;
 }
 
 button {
+    transition: 0.3s;
     width: 150px;
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: none;
+}
+
+.line_btn {
+    color: #ff0000;
+    background-color: transparent;
+    border: #ff0000 1px solid;
+}
+.line_btn:hover{
+    color: #C1EFF4;
+    background-color: #ff0000a3;
+}
+.line_btn:active{
+    color: #C1EFF4;
+    background-color: #cb00009b;
+}
+
+.basic_btn {
+    background-color: #f6dd9d;
+}
+.basic_btn:hover {
+    background-color: #fcd572;
+}
+.basic_btn:active {
+    background-color: #f1c657;
+}
+
+.img_btn{
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_btn:hover {
+    background-color: #5d6afc8b;
+}
+.img_btn:active {
+    background-color: #4851b9b3;
+}
+.img_btn img{
+    width: 25px;
+    height: 25px;
 }
 
 .gradient_btn {
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(to left,#f06868b1, #8b91dc);
+}
+.gradient_btn:hover {
+    background: linear-gradient(to left,#f06868, #8b91dc);
 }
