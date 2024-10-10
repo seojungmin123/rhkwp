@@ -40,10 +40,10 @@ button {
     background-color: #f6dd9d;
 }
 .basic_btn:hover {
-    background-color: #fcd572;
+    background-color: #e7c469;
 }
 .basic_btn:active {
-    background-color: #f1c657;
+    background-color: #cba648;
 }
 
 .img_btn{
@@ -68,4 +68,7 @@ button {
 }
 .gradient_btn:hover {
     background: linear-gradient(to left,#f06868, #8b91dc);
+}
+.gradient_btn:active {
+    background: linear-gradient(to left,#c55555, #6d72ad);
 }
