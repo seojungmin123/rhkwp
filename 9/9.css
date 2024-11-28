@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -26,10 +26,15 @@ header {
     border-bottom: 2px solid #00000018;
 }
 .header_box{
-    width: 1500px;
+    width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
 }
 .logo img{
     width: 60px;
@@ -79,6 +84,11 @@ header {
 .news_right {
     margin-top: 40px;
 }
+.nav{
+    position: absolute;
+    left: 300px;
+    z-index: 1;
+}
 .nav > ul{
     display: flex;
 }
@@ -86,6 +96,10 @@ header {
     height: 30px;
     margin-left: 50px;
     line-height: 30px;
+}
+.nav > ul > li > ul > li{
+    padding-left: 0;
+    margin-left: 25px;
 }
 .news > ul > li {
     padding-left: 0px;
@@ -287,8 +301,71 @@ button {
 button:hover{
     opacity: 0.8;
 }
+.btn_box{
+    position: absolute;
+    right: 0;
+}
 .btn_box .login{
     background-color: #fff;
     color: #000;
     border: 1px solid #0000002b;
+}
+main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #00000018;
+}
+.main_box{
+    width: 1300px;
+    display: flex;
+}
+.left{
+    width: 650px;
+    height: 250px;
+    position: relative;
+    top: 125px;
+}
+.main_image{
+    width: 650px;
+}
+.left h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.left p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+main img{
+    width: 550px;
+    height: 500px;
+    position: relative;
+    left: 100px;
+}
+footer{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #00000018;
+}
+.footer_box{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer_p{
+    width: 700px;
+    position: relative;
+    left: 0;
+    font-size: 25px;
+}
+.pokeimg img{
+    width: 500px;
+    height: 120px;
 }
