@@ -222,7 +222,7 @@ footer{
     position: relative;
 }
 .footer_p{
-    width: 600px;
+    width: 300px;
     position: relative;
     left: 0;
     font-size: 20px;
@@ -230,7 +230,7 @@ footer{
 }
 .slider_box{
     position: relative;
-    width: 700px;
+    width: 1000px;
     height: 180px;
     display: flex;
     overflow: hidden;
@@ -239,25 +239,47 @@ footer{
 .slider_box img{
     width: 100px;
     height: 100px;
+    margin-left: 50px;
+    opacity: 0.8;
 }
 .slider1{
-    left: 700px;
+    left: 1000px;
     position: absolute;
     display: flex;
-    animation: 10s linear infinite slider1;
+    animation: 15s linear infinite slider;
 }
 
 .slider2{
-    left: 700px;
+    left: 1000px;
     position: absolute;
     display: flex;
-    animation: 10s linear 5s infinite slider1;
+    animation: 15s linear 7.5s infinite slider;
 }
 
-@keyframes slider1 { 
+@keyframes slider { 
     0% { transform: translateX(0);
     }
     100% {
         transform: translateX(-200%);
     }
+}
+.slider_box::before{
+    content: '';
+    width: 10%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #f4efe9, #00000000);
+}
+.slider_box::after{
+    content: '';
+    width: 10%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, #00000000, #f4efe9);
 }
