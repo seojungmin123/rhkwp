@@ -104,17 +104,43 @@ header {
 .nav > ul > li:first-child > ul:last-child{
     background-color: #ffb040;
 }
+.news_right span{
+    color: #101820;
+}
+.news_right p{
+    color: #101820af;
+}
 .nav > ul > li:nth-child(2) > ul:last-child{
-    background-color: #d63836;
+    background-color: #ed6f63;
+}
+.game_right span{
+    color: #2D2926;
+}.game_right p{
+    color: #2d2926a4;
 }
 .nav > ul > li:nth-child(3) > ul:last-child{
-    background-color: #1855a0;
+    background-color: #7b9acc;
+}
+.card_right span{
+    color: #FCF6F5;
+}.card_right p{
+    color: #fcf6f5b6;
 }
 .nav > ul > li:nth-child(4) > ul:last-child{
-    background-color: #264462;
+    background-color: #4831D4;
+}
+.anima_right span{
+    color: #CCF381;
+}.anima_right p{
+    color: #cbf381b7;
 }
 .nav > ul > li:last-child > ul:last-child{
-    background-color: #793da7;
+    background-color: #603F83;
+}
+.goods_right span{
+    color: #C7D3D4;
+}.goods_right p{
+    color: #c7d3d4b6;
 }
 main {
     background-color: #ede6dd;
