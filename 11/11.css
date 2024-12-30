@@ -6,16 +6,56 @@
     color: inherit;
 }
 
-.modal{
+input[id*="popup"] {
     display: none;
 }
-.modal + label{
+input[id*="popup"] + label{
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 20px;
-    background-color: #eee;
-    border: 2px solid black;
-    padding: 7px 14px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 20px;
+    background-color: #00000038;
+}
+input[id*="popup"] + label + div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+input[id*="popup"] + label + div > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 2;
+    text-align: center;
+    align-content: center;
+}
+input[id*="popup"] + label + div > div > label{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(40%,-40%);
+    padding: 20px;
+    background-color: #dd5347;
+    z-index: 1;
+    border-radius: 10px;
+}
+input[id*="popup"] + label + div > label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f8c;
+    z-index: 1;
+}
+input[id*="popup"] + label + div{
+    display: none;
+}
+input[id*="popup"]:checked + label + div{
+    display: block;
 }
