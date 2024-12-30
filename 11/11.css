@@ -6,7 +6,11 @@
     color: inherit;
 }
 .modal {
-    width: 1000px;
-    height: 500px;
-    background-color: #00000037;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000038;
+    text-align: center;
 }
