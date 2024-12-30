@@ -57,5 +57,5 @@ input[id*="popup"] + label + div{
     display: none;
 }
 input[id*="popup"]:checked + label + div{
-    display: block;
+    display: block
 }
