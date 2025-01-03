@@ -39,7 +39,7 @@ input[id*="popup"] + label + div > div > label{
     top: 0%;
     left: 0%;
     transform: translate(40%,-40%);
-    padding: 20px;
+    padding: 20px
     background-color: #dd5347;
     z-index: 1;
     border-radius: 10px;
