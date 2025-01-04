@@ -21,7 +21,7 @@
 .slider2{
     left: 1000px;
     position: absolute;
-    display: flex;
+    display: flex
     animation: 5s linear 2.5s infinite slider1;
 }
 
