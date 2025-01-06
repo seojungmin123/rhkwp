@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+.hd_wrap{
+    width: 1800px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;
+}
+nav{
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+nav > ul {
+    display: flex; 
+    padding: 0px 150px; 
+}
+nav > ul > li {
+    text-align: center;
+    margin: 0px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hd_num{
+    align-content: center;
+}
+.order{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 50px;
+    font-size: 15px;
+    animation: infinite 0.5s blink;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@keyframes blink {
+    0% {
+        background-color: #c11020;
+        color: #fff;
+    }
+    100% {
+        background-color: #fff;
+        color: #c11020;
+    }
+}
+#sec1{
+    background-image: url("https://kiyoung2.com/theme/kiyoung2/img/2406_sec01_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+#sec2{
+    background-image: url("https://kiyoung2.com/theme/kiyoung2/img/2406_sec02_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+.side{
+    position: fixed;
+    top: 35%;
+    right: 30px;
+    width: 125px;
+    height: 450px;
+    background-color: #c11020;
+}
+.bot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #c11020;
+}
