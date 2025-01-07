@@ -7,13 +7,14 @@
     scroll-behavior: smooth;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden;  /* 가로 스크롤 없애줌 */
+    font-size: 18px;
 }
 header {
     width: 100%;
     height: 90px;
     background-color: #000;
-    position: sticky;
+    position: sticky;  /* 상단에 붙어있게하기 */
     top: 0;
 }
 .hd_wrap{
@@ -78,12 +79,64 @@ nav > ul > li {
     height: 900px;
 }
 .side{
+    display: flex;
+    flex-direction: column;   /* 세로로 */
     position: fixed;
-    top: 35%;
+    top: 30%;
     right: 30px;
-    width: 125px;
-    height: 450px;
-    background-color: #c11020;
+    width: 130px;
+    background-color: #000;
+    border: #c11020 3px solid;
+    color: white;
+}
+.side_text{
+    text-align: center;
+    margin-top: 20px;
+}
+.input_wrap{
+    text-align: center;
+    
+}
+input::placeholder {
+    color: #000000;
+}
+.input_wrap > input, select{
+    width: 110px;
+    height: 23px;
+    text-indent: 5px;
+    border: #c11020 2px solid;
+    margin-top: 12px;
+    color: #000;
+}
+.checkbox{
+    margin: 12px 0;
+    justify-content: center;
+    display: flex;
+    font-size: 13px;
+}
+
+.checkbox p{
+    text-decoration: underline;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.top_btn{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-bottom: 13px solid black;
+    border-top: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
 }
 .bot{
     position: fixed;
