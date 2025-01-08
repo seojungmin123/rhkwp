@@ -34,30 +34,35 @@ input{
     height: 90px;
     margin: 0 auto;
     width: 1800px;
+    min-width: 1500px;
     box-sizing: border-box;
+    justify-content: space-between
 }
 nav{
     color: #fff;
     align-content: center;
+    overflow: auto
 }
 nav > ul {
     display: flex; 
-    padding: 0px 150px; 
+    flex-wrap: wrap;
+    justify-content: space-between
 }
 nav > ul > li {
     text-align: center;
     margin: 0px 30px;
     font-size: 20px;
     cursor: pointer;
-    height: 90px;
     align-content: center;
 }
 .hd_num{
     align-content: center;
-    position: relative;
+}
+.hd_tel_box{
+    display: flex;
 }
 .order{
-    width: 90px;
+    width: 100px;
     height: 40px;
     border-radius: 20px;
     border: none;
@@ -201,8 +206,7 @@ input::placeholder {
 }
 
 .bot_checkbox{
-    width: 130px;
-    margin: 12px 0;
+    width: 120px;
     font-size: 13px;
 }
 
