@@ -6,28 +6,39 @@
     color: inherit;
     scroll-behavior: smooth;
 }
+html {
+}
+
 body{
-    overflow-x: hidden;  /* 가로 스크롤 없애줌 */
+    width: 100%;
+    overflow-x: hidden;/* 가로 스크롤 없애줌 */
     font-size: 18px;
 }
 header {
     width: 100%;
-    height: 90px;
     background-color: #000;
     position: sticky;  /* 상단에 붙어있게하기 */
     top: 0;
+    display: flex;
+}
+input{
+    box-sizing:border-box;
+}
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .hd_wrap{
-    width: 1800px;
+    display: flex;
     height: 90px;
     margin: 0 auto;
-    background-color: #000;
-    display: flex;
+    width: 1800px;
+    box-sizing: border-box;
 }
 nav{
     color: #fff;
-    align-items: center;
-    display: flex;
+    align-content: center;
 }
 nav > ul {
     display: flex; 
@@ -38,9 +49,12 @@ nav > ul > li {
     margin: 0px 30px;
     font-size: 20px;
     cursor: pointer;
+    height: 90px;
+    align-content: center;
 }
 .hd_num{
     align-content: center;
+    position: relative;
 }
 .order{
     width: 90px;
@@ -79,6 +93,7 @@ nav > ul > li {
     height: 900px;
 }
 .side{
+    z-index: 10;
     display: flex;
     flex-direction: column;   /* 세로로 */
     position: fixed;
@@ -100,7 +115,7 @@ nav > ul > li {
 input::placeholder {
     color: #000000;
 }
-.input_wrap > input, select{
+.input_wrap > input, #region_1{
     width: 110px;
     height: 23px;
     text-indent: 5px;
@@ -132,7 +147,7 @@ input::placeholder {
 .arrow{
     width: 0;
     height: 0;
-    margin-left: 5px;
+    margin-left: 3px;
     border-bottom: 13px solid black;
     border-top: 8px solid transparent;
     border-left: 8px solid transparent;
@@ -144,4 +159,61 @@ input::placeholder {
     width: 100%;
     height: 60px;
     background-color: #c11020;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.bot_tel{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    align-items: center;
+    margin-right: 50px;
+}
+.bot_tel img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.bot_input_wrap{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+input::placeholder {
+    color: #000000;
+}
+.bot_input_wrap > input, #region_2{
+    width: 150px;
+    height: 30px;
+    text-indent: 5px;
+    margin-right: 12px;
+    color: #000;
+}
+
+#region_1{
+    margin-right: 0;
+}
+
+#region_2{
+    margin-top: 0;
+}
+
+.bot_checkbox{
+    width: 130px;
+    margin: 12px 0;
+    font-size: 13px;
+}
+
+.bot_checkbox p{
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+@media(max-width : 400px) {
+    header {
+        width: 400px;
+        background-color: #fff;
+    }
 }

@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="top"></div>
     <header>
         <div class="hd_wrap">
-            <h1>
-                <a href="#"><img src="https://kiyoung2.com/theme/kiyoung2/img/hd_logo.png" alt="logo"></a>
-            </h1>
+            <a class="logo" href="#">
+                <img src="https://kiyoung2.com/theme/kiyoung2/img/hd_logo.png" alt="logo">
+            </a>
+            
             <nav>
                 <ul>     
                     <li><a href="#sec2">이달의 창업혜택</a></li>     
@@ -44,7 +46,7 @@
         <div class="input_wrap">
             <input class="input_name" type="text" placeholder="이름">
             <input class="input_tel"  type="tel" placeholder="연락처">
-            <select name="region" id="region">
+            <select name="region" id="region_1">
                 <option value="창업희망지역">창업희망지역</option>
                 <option value="서울특별시">서울특별시</option>
                 <option value="부산광역시">부산광역시</option>
@@ -64,13 +66,38 @@
                 <input type="image" src="https://kiyoung2.com/theme/kiyoung2/img/pc_db_floating_submit.jpg">
             </div>
         </div>
-        <a href="">
+        <a href="#top">
             <div class="top_btn">
                 <p>TOP</p>
                 <div class="arrow"></div>
             </div>
         </a>
     </menu>
-    <menu class="bot"></menu>
+    <menu class="bot">
+        <div class="bot_tel">
+            <img src="https://kiyoung2.com/theme/kiyoung2/img/pc_db_fixed_bot_tel.png" alt="bot_tel_img">
+            <p>빠른 창업문의 1800-8192</p>
+        </div>
+        <div class="bot_input_wrap">
+            <input class="input_name" type="text" placeholder="이름">
+            <input class="input_tel"  type="tel" placeholder="연락처">
+            <select name="region" id="region_2">
+                <option value="창업희망지역">창업희망지역</option>
+                <option value="서울특별시">서울특별시</option>
+                <option value="부산광역시">부산광역시</option>
+                <option value="대구광역시">대구광역시</option>
+                <option value="인천광역시">인천광역시</option>
+                <option value="광주광역시">광주광역시</option>
+                <option value="대전광역시">대전광역시</option>
+                <option value="울산광역시">울산광역시</option>
+                <option value="세종특별자치시">세종특별자치시</option>
+            </select>
+        </div>
+        <div class="bot_checkbox">
+            <input id="bot_info" type="checkbox">
+            <label for="bot_info">개인정보취급방침 동의</label>
+            <p>[약관보기]</p>
+        </div>
+    </menu>
 </body>
 </html>
