@@ -19,7 +19,7 @@ header {
     background-color: #000;
     position: sticky;  /* 상단에 붙어있게하기 */
     top: 0;
-    display: flex;
+    display: flex
 }
 input{
     box-sizing:border-box;
