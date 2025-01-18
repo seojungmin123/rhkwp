@@ -12,7 +12,7 @@ html {
 body{
     width: 100%;
     overflow-x: hidden;/* 가로 스크롤 없애줌 */
-    font-size: 18px
+    font-size: 18px;
 }
 header {
     width: 100%;
