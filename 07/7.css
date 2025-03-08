@@ -17,16 +17,16 @@ a {
 }
 
 .box1 .facebook{
-    margin-top: 200px;
+    margin-top: 170px;
     margin-right: 0;
     width: 250px;
     height: 45px;
-    margin-right: 200px;
-    padding-bottom: 15px;
+    margin-right: 225px;
+    padding-bottom: 45px;
 }
 .box1 .facebook img{
-    width: 100%;      /* 이미지를 박스 크기에 맞추기 */
-    height: 100%;
+    width: 300px;      /* 이미지를 박스 크기에 맞추기 */
+    height: 100px;
 }
 
 .box1_text1 {
